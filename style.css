@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+ font-size: 38px;
+ background-color: rgb(230, 252, 238);
+ margin: 2%;
+ text-align: center;
+ font-family:  'Prata'; }
+.section1{
+    background: url(img/leaves-background-with-metallic-foil_79603-956.jpg);
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.intro{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: 'Russo One', sans-serif;
+    color: #022e0a;
+    font-size: 52px;
+}
+
+.img2{
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.img2:hover{
+    width: 450px;
+    transition-duration: 2s;
+    border-radius: 25%;
+}
+
+
+.intro1{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    background-attachment: fixed;
+    
+    }
+    
+    .intro_text1{
+    width: 53%;
+    margin-top: 2%;
+    font-weight: 500;
+   
+    }
+.text{
+    background-color: #ffffff9f;
+}
+    
+    .intro_title{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    }
+    
+    .intro_text{
+    font-size: 30px;
+    margin-top: 2%;
+    
+    }
+   
+    
+    .i_img{width: 65%;
+    padding-top: 5%;
+    align-items: center;
+    margin-left: 10%;
+    
+    }
+.section2{
+    text-align: center;
+    margin-top: 3%;
+}
+.phann{
+    display: inline-block;
+    width: 60%;
+    height: 20%;
+}
+    
+
+.ph1{
+    width: 28%;
+height: 10%;
+-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ph1:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    }
+.ph2{
+    width: 38%;
+height: 10%;
+vertical-align:middle;
+-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ph2:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    }
+.ph3{
+    width: 28%;
+    height: 10%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ph3:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    }
+
+    .section3{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .ph11{
+        width: 30%;
+        padding-top: 5%;
+        height: 30% ;
+    }
+    .ph12{
+        padding-top: 5%;
+        width: 30%;
+        height: 30%    ;
+    }
+    .txt3{
+        font-size: 28px;
+        
+        margin: 5%;
+        padding: 4%;
+        background-color: rgba(255, 255, 255, 0.671); 
+        box-shadow:0px 10px 10px 15px rgba(145, 144, 144, 0.527);
+    }
+    
+    .section3 img {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        }
+    
+    .section3 img:hover {
+        border-radius: 50%;
+        
+        }
+        .php{
+            display: inline-block;
+            margin-top: 2%;
+        }
+        .php img{
+            width: 380px;
+            height: 420px;
+            transition:1s ;
+        }
+        .php img:hover{
+            transform: scale(1.1); /* Увеличиваем масштаб */
+        }
+        .section4{
+            margin: 3%;
+        } 
+        .imgs{
+            display:flex;
+           justify-content: space-around;
+        }
+        .imgs img{
+       width: 25%;
+       height: 25%;
+       transition: 2s;
+        }
+        .imgs img:hover{
+          transform: scale(1.2);
+            }
+       .ph{
+              width: 350px;
+              height: 257px;
+              padding-top: 15%;
+           }
+       
+           .gallery22{
+               display: flex;
+               margin-top: 2%;
+               margin-left: 11%;
+           }
+           .gallery22 img{
+               width: 265px;
+               height: 375px;
+               margin: 1%;
+              transition: 2s;
+           }
+           
+           .gallery22 img:hover{
+               transform: scale(1.2);
+           }
+           
+       
+    
+    
